@@ -1,0 +1,8 @@
+/* Global */
+@import "../../global/global.css";
+
+/* Partials */
+@import "./partials/hero-section.css";
+
+/* Layout */
+@import "../../layout/header.css";
