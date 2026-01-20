@@ -3,6 +3,3 @@
 
 /* Partials */
 @import "./partials/hero-section.css";
-
-/* Layout */
-@import "../../layout/header.css";
