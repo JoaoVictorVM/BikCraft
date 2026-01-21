@@ -1,3 +1,7 @@
 body {
     color: var(--cor-11);
 }
+
+img[src$=".jpg"] {
+    border-radius: 4px;
+}
