@@ -7,8 +7,25 @@
         <title>Nebula | Bikcraft</title>
         <meta name="description" content="Nebula." />
 
-        <link rel="preload" href="../src/styles/style.css" as="style">
+        <link
+            rel="icon"
+            href="../src/assets/favicon.svg"
+            type="image/svg+xml"
+        />
+
+        <link rel="preload" href="../src/styles/style.css" as="style" />
         <link rel="stylesheet" href="../src/styles/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+
+        <script>
+            document.documentElement.classList.add("js");
+        </script>
     </head>
 
     <body id="bicicleta">
@@ -41,15 +58,15 @@
                 <div class="bicicleta-imagens">
                     <img
                         src="../src/assets/images/bicicleta/nimbus3.jpg"
-                        alt=""
+                        alt="Bicicleta 3"
                     />
                     <img
                         src="../src/assets/images/bicicleta/nimbus1.jpg"
-                        alt=""
+                        alt="Bicicleta 1"
                     />
                     <img
                         src="../src/assets/images/bicicleta/nimbus2.jpg"
-                        alt=""
+                        alt="Bicicleta 2"
                     />
                 </div>
                 <div class="bicicleta-conteudo">
@@ -59,7 +76,9 @@
                         que garante maior velocidade.
                     </p>
                     <div class="bicicleta-comprar">
-                        <a class="botao" href="../orcamento.html"
+                        <a
+                            class="botao"
+                            href="../orcamento.html?tipo=bikcraft&produto=nebula"
                             >Comprar Agora</a
                         >
                         <span class="font-1-xs cor-6"
@@ -245,5 +264,6 @@
                 </p>
             </div>
         </footer>
+        <script src="../src/scripts/script.js"></script>
     </body>
 </html>

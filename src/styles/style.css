@@ -19,6 +19,9 @@
 @import "utils/typography.css";
 @import "utils/formulario.css";
 
+/* Shared */
+@import "shared/animacao.css";
+
 /* Pages */
 /* Home */
 @import "pages/home/partials/introducao.css";
